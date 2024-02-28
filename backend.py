@@ -2,8 +2,11 @@ def displayGrades():
     print()
 
 def averageScore(scores):
-    sum = 0;
+    sum = 0
     for i in scores:
-        sum += i;
+        sum += i
 
     return sum / len(scores)
+
+def getGrades(file):
+    return file
